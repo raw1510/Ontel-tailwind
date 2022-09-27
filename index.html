@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tailwind | Ontel</title>
+</head>
+<body>
+    <!--container-->
+    <div class="container2">
+        <!--nav container-->
+        <nav class="bg-black h-20 relative flex justify-center">
+            <div class="nav-con bg-[#202020] h-20 w-[85%] relative top-5 text-white flex flex-row md:w-[85%] lg:w-[70%]">
+                <!-- <div class="border-nav"></div> -->
+                <!--logo-->
+                <div class="logo flex items-center w-[50%] md:w-[40%] lg:w-[55%] md:p-2">
+                    <img src="images/logo.png" class="w-auto" alt="">
+                </div>
+                <!--symbol-->
+                <div class="navbar-content w-[50%] flex justify-center items-center text-xl md:p-0 md:w-[60%] lg:w-[45%]">
+
+                    <span class="material-symbols-outlined p-2 bg-[#d54ab6] md:hidden">menu</span>
+
+                    <div class="hidden md:block md:w-[100%] md:h-[100%] md:flex md:items-center">
+
+                        <ul class="hidden md:flex md:w-[100%] md:h-[100%] md:justify-between">
+                            <li class="hidden md:bg-[#333333] md:hover:bg-transparent md:hover:duration-500 md:hover:text-orange-400 md:py-3 md:px-2 md:flex md:justify-center md:items-center lg:text-[16px]">Home</li>
+                            <li class="hidden md:py-3 md:px-2 md:flex md:justify-center md:items-center lg:text-[16px]">About Us</li>
+                            <li class="hidden md:py-3 md:px-2 md:flex md:justify-center md:items-center lg:text-[16px]">Contact</li>
+                            <li class="hidden md:py-3 md:px-2 md:flex md:justify-center md:items-center lg:text-[16px]">Portfolio</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--title container-->
+        <div class="main-con h-[518px] bg-[url('images/home-bg.jpg')] bg-center bg-cover flex flex-col justify-center lg:items-center px-9 font-bold text-white">
+                <!--title-->
+                <div class="title-main lg:ml-36 lg:space-y-2">
+                    <h3 class="text-4xl">Welcome to</h3>
+                    <h1 class="text-5xl tracking-wide">Ontel Design Studio</h1>
+                </div>
+        </div>
+
+        <!--card wrapper-->
+        <div class="car-container h-[991px] bg-black relative md:h-auto">
+
+            <!--div position up-->
+            <div class="cards flex flex-col items-center space-y-6 py-2 relative -top-10 md:flex-row md:flex-wrap md:gap-6 md:-top-16 md:space-y-0 lg:flex-row lg:flex-nowrap lg:justify-center lg:gap-10 lg:space-y-0">
+                
+                <!--card 1-->
+                <div class="car1 text-white bg-[#c14000] w-[290px] h-[317px] hover:-translate-y-5 hover:duration-700 flex flex-col justify-center items-center md:w-[40%] md:m-auto lg:w-[290px] lg:m-0">
+                    <span class="material-symbols-outlined text-white text-7xl">computer</span>
+                    <h1 class="text-4xl">Responsive</h1> <br>
+                    <p class="text-center md:text-lg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                </div>
+
+                <!--card 2-->
+                <div class="car2 text-white bg-[#009988] w-[290px] h-[317px] hover:-translate-y-5 hover:duration-700 flex flex-col justify-center items-center md:w-[40%] md:m-auto lg:w-[290px] lg:m-0">
+                    <span class="material-symbols-outlined text-white text-7xl">phone_iphone</span>
+                    <h1 class="text-4xl">Easy To Use</h1> <br>
+                    <p class="text-center md:text-lg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                </div>
+
+                <!--card 3-->
+                <div class="car3 text-white bg-[#ffa500] w-[290px] h-[317px] hover:-translate-y-5 hover:duration-700 flex flex-col justify-center items-center md:w-[90%] md:m-auto lg:w-[290px] lg:m-0">
+                    <span class="material-symbols-outlined text-white text-7xl">sports_soccer</span>
+                    <h1 class="text-4xl">Quick Support</h1> <br>
+                    <p class="text-center md:text-lg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+                </div>
+            </div>
+        </div>
+
+        <!--container 3 startup business-->
+        <div class="start-business bg-black flex flex-col md:p-8 lg:flex lg:flex-row lg:justify-center lg:p-10">
+
+            <!--image of startup container-->
+            <div class="image-business lg:h-[333px] lg:w-[500px]">
+                <img src="images/about-img.jpg" alt="">
+            </div>
+
+            <!--startup business-->
+            <div class="content-startup bg-[#191919] py-8 px-7 flex flex-col justify-center text-white lg:h-[333px] lg:w-[500px]">
+                <h1 class="text-3xl tracking-wider font-bold md:text-4xl lg:text-[30px]">Startup Business</h1> <br class="md:hidden">
+                <p class="text-[#626162] leading-5 md:mt-4 md:text-lg lg:text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet.</p>
+                <br class="md:hidden">
+                <p class="text-[#626162] leading-5 md:my-4 md:text-lg lg:text-sm">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p>
+                <br>
+                <button class="px-4 py-2 text-sm font-bold text-white border-2 border-white w-fit">LEARN MORE</button>
+            </div>
+        </div>
+
+        <!--grid gallary-->
+
+        <div class="recent-projects bg-black lg:p-20 py-4">
+
+            <!--title-->
+            <div class="title text-white text-center pb-[20px]"><span class="text-[30px] lg:text-4xl">Recent Project</span></div>
+
+            <!--title desciption-->
+            <div class="description text-center px-4 mb-8"><p class="text-[#626162] text-sm lg:text-lg">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh <br class="hidden lg:block"> euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat.</p></div>
+            <div class="tablet-responsive-flex hidden md:flex">
+                <div class="image"><img src="images/portfolio-img1.jpg" alt=""></div>
+                <div class="image"><img src="images/portfolio-img2.jpg" alt=""></div>
+                <div class="image"><img src="images/portfolio-img3.jpg" alt=""></div>
+            </div>
+
+            <!--photo using grid-->
+            <div class="photos-rid grid grid-cols-2 lg:grid-cols-4">
+                <div class="image md:hidden"><img src="images/portfolio-img1.jpg" alt=""></div>
+                <div class="image md:hidden"><img src="images/portfolio-img2.jpg" alt=""></div>
+                <div class="image md:hidden"><img src="images/portfolio-img3.jpg" alt=""></div>
+                <div class="image"><img src="images/portfolio-img4.jpg" alt=""></div>
+                <div class="image"><img src="images/portfolio-img5.jpg" alt=""></div>
+                <div class="image"><img src="images/portfolio-img6.jpg" alt=""></div>
+                <div class="image col-span-2 md:col-span-1"><img src="images/portfolio-img7.jpg" alt=""></div>
+            </div>
+
+            <!--button view more photo-->
+            <div class="button-gallary h-[100px] flex justify-center items-center mt-4">
+                <button class="touch-manipulation hover:bg-[#009988] hover:text-[#333] hover:border-0 py-[12px] px-[18px] text-white text-[13px] font-bold transition-all duration-[0.4ms] ease-in border-2">View More</button>
+            </div>
+        </div>
+        
+        <!--fotter-->
+        <div class="3cards bg-[#1c1c1c] py-10 md:flex">
+
+            <!--column 1-->
+            <div class="contact text-white px-4 md:w-[33.3%]">
+                <img src="images/logo.png" alt="">
+                <p>Onetel is free Bootstrap v3.3.5 HTML5 layout from templatemo website. Feel free to use it for your website.</p> <br>
+                <ul class="">
+                    <li><i class="fa-solid fa-phone"></i>&nbsp; &nbsp; <span>6587945877</span></li> <br>
+                    <li><i class="fa-sharp fa-solid fa-envelope"></i>&nbsp; &nbsp; <span>IDK@gmail.com</span></li><br>
+                    <li><i class="fa-solid fa-earth-americas"></i>&nbsp; &nbsp; <span>www.IDK.com</span></li>
+                </ul>
+            </div>
+
+            <!--column 2-->
+            <div class="links text-white px-4 my-8 md:w-[33.3%]">
+                <span class="font-bold text-2xl">Useful Links</span> <br>
+                <ul class="list-disc p-4">
+                    <li>HTML5 Templates</li> <br>
+                    <li>CSS3 Tricks</li><br>
+                    <li>Design Blog</li><br>
+                    <li>Animations</li>
+                </ul>
+            </div>
+
+            <!--column 3-->
+            <div class="Newsletter text-white px-4 my-8 md:w-[33.3%]">
+                <span class="font-bold text-2xl">Newsletter</span> <br> <br>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismo.</p><br>
+                <form action="">
+                    <input type="text" name="newsleter" id="news" placeholder="Enter your email" class="bg-transparent border-2 px-4 placeholder:text-white">
+                    <br><input type="button" value="Submit" class="bg-transparent border-2 text-sm text-white font-bold px-4 my-4 md:text-lg">
+                </form>
+            </div>
+        </div>
+
+        <!--copyright-->
+        <div class="copyright bg-black text-white flex flex-col md:flex-row justify-between">
+            <div class="caption p-4 flex justify-center items-center">
+               <p>Copyright © 2084 Company Name</p>
+            </div>
+            <div class="social-media p-4 flex justify-center items-center space-x-10 text-xl">
+                <a><i class="fa-brands fa-square-facebook cursor-pointer"></i></a>
+                <a><i class="fa-brands fa-square-twitter cursor-pointer"></i></a>
+                <a><i class="fa-brands fa-square-instagram cursor-pointer"></i></a>
+                <a><i class="fa-brands fa-youtube cursor-pointer"></i></a>
+                <a><i class="fa-brands fa-pinterest cursor-pointer"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
